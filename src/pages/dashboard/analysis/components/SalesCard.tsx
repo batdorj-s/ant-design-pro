@@ -135,9 +135,8 @@ const SalesCard = ({
                       {rankingListData.map((item, i) => (
                         <li key={item.title}>
                           <span
-                            className={`${styles.rankingItemNumber} ${
-                              i < 3 ? styles.rankingItemNumberActive : ''
-                            }`}
+                            className={`${styles.rankingItemNumber} ${i < 3 ? styles.rankingItemNumberActive : ''
+                              }`}
                           >
                             {i + 1}
                           </span>
@@ -194,11 +193,10 @@ const SalesCard = ({
                       {rankingListData.map((item, i) => (
                         <li key={item.title}>
                           <span
-                            className={`${
-                              i < 3
+                            className={`${i < 3
                                 ? styles.rankingItemNumberActive
                                 : styles.rankingItemNumber
-                            }`}
+                              }`}
                           >
                             {i + 1}
                           </span>
