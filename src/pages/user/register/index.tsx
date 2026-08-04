@@ -163,6 +163,7 @@ const Register: FC = () => {
   const passwordStatus = getPasswordStatus(password);
   return (
     <div className={styles.main}>
+      <img className={styles.logo} src="/logo.svg" alt="logo" />
       <h3>注册</h3>
       <Form form={form} name="UserRegister" onFinish={onFinish}>
         <FormItem

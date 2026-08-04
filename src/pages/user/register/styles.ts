@@ -7,6 +7,12 @@ const useStyles = createStyles(({ token }) => {
       margin: '0 auto',
       h3: { marginBottom: '20px', fontSize: '16px' },
     },
+    logo: {
+      display: 'block',
+      width: '64px',
+      height: 'auto',
+      margin: '0 auto 20px',
+    },
     password: {
       marginBottom: '24px',
       '.ant-form-item-explain': { display: 'none' },
